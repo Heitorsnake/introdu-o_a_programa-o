@@ -1,2 +1,2 @@
-# introdu-o_a_programa-o
+# introduçao a programas
 diretório com as atividades da diciplina
