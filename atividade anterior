@@ -1,0 +1,4 @@
+print("esta aplicção mostra a tabuada de 1 a 10 de um númer escolhido")
+numero=int(input("digite um número: "))
+for i in range(10):
+    print(numero, "x", i+1, "=", numero*(i+1))
