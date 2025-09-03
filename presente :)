@@ -28,4 +28,8 @@ def printLyrics():
     for text, delay in lines:
         print(f"[bold pale_turquoise1]{text}[/bold pale_turquoise1]")
         sleep(delay)
+
 printLyrics()
+
+# Mensagem de presente de aniversário atrasado do Heitor
+print("\nPresente de aniversário atrasado do Heitor!")
