@@ -1,0 +1,31 @@
+from rich import print
+from time import sleep
+import os
+os.system('cls')
+lines = [
+    ("We were searching for reasons", 1),
+    ("To play by the rules", 1),
+    ("But we quickly found", 1),
+    ("It was just for fools", 1.5),
+    ("Now through all of this sorrow", 1.5),
+    ("We'll be riding high", 1.5),
+    ("And the truth of the matter is", 1.5),
+    ("I never let you go, let you go", 1.5),
+    ("You go down just like Holy Mary", 2),
+    ("Mary on a, Mary on a cross", 2),
+    ("Not just another Bloody Mary", 1.5),
+    ("Mary on a, Mary on a", 2),
+    ("You go down just like Holy Mary", 1.5),
+    ("Mary on a, Mary on a cross", 2),
+    ("Your beauty never ever scared me", 1.5),
+    ("Mary on a, Mary on a cross", 2),
+    ("If you choose to run away with me", 1.5),
+    ("I will tickle you internally", 1.5),
+    ("And I see nothing wrong with that", 1.5)
+]
+ # delays removido, não é necessário
+def printLyrics():
+    for text, delay in lines:
+        print(f"[bold pale_turquoise1]{text}[/bold pale_turquoise1]")
+        sleep(delay)
+printLyrics()
