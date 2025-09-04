@@ -32,4 +32,4 @@ def printLyrics():
 printLyrics()
 
 # Mensagem de presente de aniversário atrasado do Heitor
-print("\nPresente de aniversário atrasado do Heitor!")
+print("\nPresente de aniversário atrasado do Heitor,e vsfd!")
